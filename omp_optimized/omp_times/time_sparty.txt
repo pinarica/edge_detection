@@ -1,0 +1,43 @@
+
+
+real	0m0.085s
+user	0m2.196s
+sys	0m0.302s
+
+real	0m0.077s
+user	0m2.316s
+sys	0m0.036s
+
+real	0m0.073s
+user	0m2.383s
+sys	0m0.172s
+
+real	0m0.081s
+user	0m2.326s
+sys	0m0.274s
+
+real	0m0.077s
+user	0m2.362s
+sys	0m0.217s
+
+real	0m0.080s
+user	0m2.244s
+sys	0m0.164s
+
+real	0m0.083s
+user	0m2.407s
+sys	0m0.336s
+
+real	0m0.087s
+user	0m2.606s
+sys	0m0.136s
+
+real	0m0.076s
+user	0m2.138s
+sys	0m0.303s
+
+real	0m0.086s
+user	0m2.352s
+sys	0m0.316s
+
+The average time after 10 runs is 0.08049999999999999
