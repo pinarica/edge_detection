@@ -1,0 +1,97 @@
+
+main_process.c: In function ‘process_img’:
+main_process.c:55:23: error: expected ‘#pragma omp’ clause before ‘forschedule’
+   55 |  #pragma omp parallel forschedule(static) collapse(2)
+      |                       ^~~~~~~~~~~
+main_process.c: In function ‘main’:
+main_process.c:117:31: warning: pointer targets in passing argument 2 of ‘read_png_file’ differ in signedness [-Wpointer-sign]
+  117 |         read_png_file(argv[1],s_img,sz);
+      |                               ^~~~~
+      |                               |
+      |                               char *
+In file included from main_process.c:7:
+png_util.h:13:27: note: expected ‘unsigned char *’ but argument is of type ‘char *’
+   13 | void read_png_file(char*, unsigned char*, image_size_t);
+      |                           ^~~~~~~~~~~~~~
+main_process.c:131:25: warning: pointer targets in passing argument 2 of ‘write_png_file’ differ in signedness [-Wpointer-sign]
+  131 |  write_png_file(argv[2],o_img,sz);
+      |                         ^~~~~
+      |                         |
+      |                         char *
+In file included from main_process.c:7:
+png_util.h:15:28: note: expected ‘unsigned char *’ but argument is of type ‘char *’
+   15 | void write_png_file(char*, unsigned char*, image_size_t);
+      |                            ^~~~~~~~~~~~~~
+main_process.c: In function ‘process_img’:
+main_process.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+make: *** [main_process.o] Error 1
+
+real	0m0.088s
+user	0m0.049s
+sys	0m0.033s
+main_process.c: In function ‘process_img’:
+main_process.c:55:23: error: expected ‘#pragma omp’ clause before ‘forschedule’
+   55 |  #pragma omp parallel forschedule(static) collapse(2)
+      |                       ^~~~~~~~~~~
+main_process.c: In function ‘main’:
+main_process.c:117:31: warning: pointer targets in passing argument 2 of ‘read_png_file’ differ in signedness [-Wpointer-sign]
+  117 |         read_png_file(argv[1],s_img,sz);
+      |                               ^~~~~
+      |                               |
+      |                               char *
+In file included from main_process.c:7:
+png_util.h:13:27: note: expected ‘unsigned char *’ but argument is of type ‘char *’
+   13 | void read_png_file(char*, unsigned char*, image_size_t);
+      |                           ^~~~~~~~~~~~~~
+main_process.c:131:25: warning: pointer targets in passing argument 2 of ‘write_png_file’ differ in signedness [-Wpointer-sign]
+  131 |  write_png_file(argv[2],o_img,sz);
+      |                         ^~~~~
+      |                         |
+      |                         char *
+In file included from main_process.c:7:
+png_util.h:15:28: note: expected ‘unsigned char *’ but argument is of type ‘char *’
+   15 | void write_png_file(char*, unsigned char*, image_size_t);
+      |                            ^~~~~~~~~~~~~~
+main_process.c: In function ‘process_img’:
+main_process.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+make: *** [main_process.o] Error 1
+
+real	0m0.071s
+user	0m0.036s
+sys	0m0.030s
+main_process.c: In function ‘process_img’:
+main_process.c:55:23: error: expected ‘#pragma omp’ clause before ‘forschedule’
+   55 |  #pragma omp parallel forschedule(static) collapse(2)
+      |                       ^~~~~~~~~~~
+main_process.c: In function ‘main’:
+main_process.c:117:31: warning: pointer targets in passing argument 2 of ‘read_png_file’ differ in signedness [-Wpointer-sign]
+  117 |         read_png_file(argv[1],s_img,sz);
+      |                               ^~~~~
+      |                               |
+      |                               char *
+In file included from main_process.c:7:
+png_util.h:13:27: note: expected ‘unsigned char *’ but argument is of type ‘char *’
+   13 | void read_png_file(char*, unsigned char*, image_size_t);
+      |                           ^~~~~~~~~~~~~~
+main_process.c:131:25: warning: pointer targets in passing argument 2 of ‘write_png_file’ differ in signedness [-Wpointer-sign]
+  131 |  write_png_file(argv[2],o_img,sz);
+      |                         ^~~~~
+      |                         |
+      |                         char *
+In file included from main_process.c:7:
+png_util.h:15:28: note: expected ‘unsigned char *’ but argument is of type ‘char *’
+   15 | void write_png_file(char*, unsigned char*, image_size_t);
+      |                            ^~~~~~~~~~~~~~
+main_process.c: In function ‘process_img’:
+main_process.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+make: *** [main_process.o] Error 1
+
+real	0m0.077s
+user	0m0.046s
+sys	0m0.025s

@@ -1,0 +1,13 @@
+#!/bin/bash --login
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=100
+#SBATCH --time=00:05:00
+
+module load GCCcore/9.3.0
+module load libpng/1.6.37
+
+make
+
+time ./process ./images/earth.png ./images/earth_o.png
+
+
